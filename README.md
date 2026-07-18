@@ -2,10 +2,10 @@
 
 Claude / Agent **skills** library by **Poorvith M P**.
 
-- Version: **v0.1**
+- Version: **v0.2**
 - Last updated: **July 2026**
 - License: **MIT**
-- Skills in this repo: **9**
+- Skills in this repo: **10**
 
 Part of the **[open-claude-skills](https://github.com/prvthmpcypher/open-claude-skills)** multi-repo hub.
 
@@ -32,6 +32,7 @@ Zip a single `skills/<skill-id>` folder and upload via **Settings → Capabiliti
 | `ebook-chapter-writer` | Ebook Chapter Writer |
 | `ghostwriter` | Ghostwriter |
 | `press-release-writer` | Press Release Writer |
+| `screenplay-writer` | Screenplay Writer |
 | `story-hook-writer` | Story Hook Writer |
 | `technical-writer` | Technical Writer |
 | `thread-to-blog-converter` | Thread to Blog Converter |
@@ -50,3 +51,4 @@ skills/<skill-id>/
 ## Author
 
 Copyright (c) 2026 Poorvith M P
+Follow the build: [@poorvith_mp](https://x.com/poorvith_mp)

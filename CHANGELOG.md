@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2 — July 2026
+
+- Added `screenplay-writer` skill — industry-standard screenplay formatting, beat sheets, and treatments
+- Skill count synced to **10** in README
+
 ## v0.1 — July 2026
 
 - Initial public import of `skills-writing` by Poorvith M P
