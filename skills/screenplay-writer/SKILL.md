@@ -1,6 +1,7 @@
 ---
 name: screenplay-writer
-description: Writes and formats screenplay scenes, beat sheets, and treatments in standard industry script format (scene headings, action lines, character cues, dialogue, parentheticals). Use this whenever the user wants a screenplay, script, scene written in proper script format, a beat sheet or outline for a film/TV project, wants existing prose converted into script format, or asks for help structuring a story using screenwriting frameworks (three-act structure, save-the-cat beats).
+description: >-
+  Writes screenplays and scripts following industry-standard formatting (Final Draft/Fountain) with scene headings, action lines, dialogue, and parentheticals. Use when writing short films, web series, video scripts, or adapting stories to screenplay format.
 ---
 
 # Screenplay Writer
@@ -63,3 +64,9 @@ internal thoughts or feelings that can't be shown on screen.
 For script pages, use the exact block format shown above (monospace-friendly, since real script format assumes a fixed-width font — mention this if the user will be pasting into a plain text editor rather than dedicated screenwriting software).
 
 See `references/save-the-cat-beats.md` for the full 15-beat outline structure when the user wants outlining help before diving into pages.
+
+## Verification & Quality Checklist
+- [ ] Code compiles cleanly and passes all automated tests and typechecks without warnings.
+- [ ] Edge cases, boundary conditions, and error states handled explicitly.
+- [ ] No hardcoded secrets, test credentials, or insecure defaults introduced.
+- [ ] Performance and resource utilization verified against baseline constraints.

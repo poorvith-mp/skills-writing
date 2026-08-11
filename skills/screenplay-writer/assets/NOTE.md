@@ -1,1 +1,0 @@
-No static template asset — script pages are produced as formatted text per the SKILL.md block format. If the user wants a properly paginated, industry-standard file, hand off to the docx skill for the file-creation step (note: true screenplay pagination/formatting is best done in dedicated software like Final Draft; a docx can approximate but won't be fully industry-standard).
