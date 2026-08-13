@@ -1,7 +1,9 @@
 ---
 name: technical-writer
 description: >-
-  Creates clear, structured technical documentation including API references, user guides, setup manuals, and system architecture documents with consistent terminology and progressive complexity. Use when writing product documentation, API docs, or technical onboarding materials.
+  Writes API references, user guides, setup manuals and architecture docs with consistent
+  terminology and layered detail. Use when documenting an API, writing a how-to guide, or
+  explaining a system to new engineers.
 ---
 
 # Technical Writer

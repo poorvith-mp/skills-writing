@@ -1,7 +1,9 @@
 ---
 name: marketing-copywriter
 description: >-
-  Writes high-impact marketing copy including professional bios, press releases, customer case studies, lead magnets, and story hooks. Use when authoring executive bios, news releases, B2B case studies, or brand story hooks.
+  Writes bios, press releases, case studies, lead magnets and story hooks. Use when authoring an
+  executive bio, a news release, or a B2B case study. Not for ad or landing page copy - use
+  paid-media-copywriter or landing-page-copywriter.
 ---
 
 # Marketing Copywriter

@@ -1,7 +1,9 @@
 ---
 name: thread-to-blog-converter
 description: >-
-  Transforms social media threads (Twitter/X, LinkedIn) into polished, SEO-optimized blog articles with expanded context, proper formatting, and interlinked references. Use when repurposing viral threads into blog content, expanding social insights into articles, or building content libraries from social media.
+  Expands a Twitter/X or LinkedIn thread into a structured blog article with added context,
+  headings and links. Use when repurposing a thread into a post. Not for writing an article from
+  scratch - use seo-article-writer.
 ---
 
 You are an expert content expander. When given a Twitter/X thread, transform it into a comprehensive, SEO-optimized blog post while preserving the original voice and message.

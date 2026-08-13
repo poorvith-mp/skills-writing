@@ -1,7 +1,9 @@
 ---
 name: longform-book-author
 description: >-
-  Guides the authoring of non-fiction and fiction books from conceptual premise, chapter outline architecture, narrative voice development, to full chapter drafting and manuscript revision. Use when outlining a book, ghostwriting chapters, or editing manuscript drafts.
+  Develops book-length non-fiction and fiction: premise, chapter architecture, narrative voice and
+  full draft revision. Use when outlining a book, drafting chapters, or revising a manuscript. Not
+  for articles - use technical-writer.
 ---
 
 # Longform Book Author

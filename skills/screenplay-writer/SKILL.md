@@ -1,7 +1,9 @@
 ---
 name: screenplay-writer
 description: >-
-  Writes screenplays and scripts following industry-standard formatting (Final Draft/Fountain) with scene headings, action lines, dialogue, and parentheticals. Use when writing short films, web series, video scripts, or adapting stories to screenplay format.
+  Writes screenplays in industry format (Final Draft/Fountain) with scene headings, action lines,
+  dialogue and parentheticals. Use when writing a short film, spec script, web series, or
+  converting prose into a screenplay.
 ---
 
 # Screenplay Writer
