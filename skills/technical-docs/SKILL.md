@@ -5,43 +5,56 @@ description: >-
   Write API references, user guides, setup manuals and architecture docs with consistent
   terminology. Use when writing developer documentation, API guides, or tutorials.
 ---
+
 # Technical Docs
 
-You are an expert technical writer who translates complex technical information into clear, accessible documentation for non-technical readers. You never assume prior knowledge.
+Technical documentation serves four distinct modes (the Divio framework: Tutorials, How-To Guides, Reference, and Explanation). Documentation fails when these modes blur — such as when setup tutorials detour into deep architecture, or when API reference pages lack reproducible request and response payloads.
+
 ## Process
-1. Analyze the technical information for complexity
-2. Identify the target audience's knowledge level
-3. Translate jargon into plain language
-4. Use analogies and examples to explain concepts
-5. Structure for skimmability with headings and bullet points
+1. Classify documentation intent (Tutorial, How-To, Reference, or Architectural Explanation).
+2. Establish reader prerequisites, environment requirements, and required tokens/keys.
+3. Structure procedures with sequential, imperative, single-action steps.
+4. Provide complete, runnable code examples with expected output.
+5. Standardize domain terminology in a structured glossary.
+
 ## Output Format
 ## Technical Documentation: [Topic]
 ### Overview
-[One-paragraph plain English summary of what this is and why it matters]
-### Key Concepts Explained
-**[Technical term]** → [Plain English explanation + analogy]
-**[Technical term]** → [Plain English explanation + analogy]
-### How It Works
-[Step-by-step explanation using simple language]
-1. **Step 1:** [What happens and why]
-2. **Step 2:** [What happens and why]
-3. **Step 3:** [What happens and why]
-### Real-World Example
-[Concrete scenario showing the technology in action]
-### FAQ
-**Q:** [Common question]
-**A:** [Simple, direct answer]
-### Glossary
-<table header-row="true">
-<tr>
-<td>Term</td>
-<td>Simple Definition</td>
-</tr>
-<tr>
-<td>[Jargon]</td>
-<td>[Plain English]</td>
-</tr>
-</table>
+[One-paragraph plain English summary of what this component accomplishes and why it exists]
+### Prerequisites
+- Node.js >= 20.0.0 or Python >= 3.11
+- Environment variable `API_KEY` configured in `.env`
+### Quickstart / How-It-Works
+1. **Step 1: Install Dependencies**:
+   ```bash
+   npm install @company/sdk
+   ```
+2. **Step 2: Initialize Client**:
+   ```typescript
+   import { Client } from "@company/sdk";
+   const client = new Client({ apiKey: process.env.API_KEY });
+   ```
+3. **Step 3: Execute Operation**:
+   ```typescript
+   const res = await client.resources.get("id_123");
+   console.log(res.data);
+   ```
+### API Reference / Schema
+- **Endpoint**: `POST /api/v1/resources`
+- **Headers**: `Authorization: Bearer <token>`, `Content-Type: application/json`
+- **Request Body**:
+  ```json
+  { "name": "sample", "tier": "standard" }
+  ```
+- **Response `201 Created`**:
+  ```json
+  { "id": "res_987", "status": "active" }
+  ```
+### Glossary & Terminology
+| Term | Definition | Context / Scope |
+|---|---|---|
+| Idempotency Key | Unique header to prevent duplicate charge execution | All mutation endpoints |
+| Tenant ID | UUID representing the client organization partition | Multi-tenant auth token |
 ## Audience-First Writing
 Before writing: Who is reading this and what do they already know?
 - **Developer docs**: Technical terms OK, code examples, values precision

@@ -5,60 +5,90 @@ description: >-
   Write constructive feedback using Situation-Behavior-Impact for performance, peer and 360
   reviews. Use when drafting constructive performance reviews, peer praise, or coaching.
 ---
-# Feedback Writing
 
-Write constructive feedback using Situation-Behavior-Impact for performance, peer and 360 reviews..
+# feedback-writing
 
-## Process
+## Core Philosophy
+Constructive feedback fails when it is delivered as subjective character criticism or wrapped in cowardly "feedback sandwiches" (praise-criticism-praise) that confuse the recipient. High-impact professional feedback is grounded in objective behavioral observation, clear business impact, and psychological safety. Utilizing the Center for Creative Leadership’s **Situation-Behavior-Impact (SBI)** model, feedback separates observable actions from assumed motives and establishes clear forward-looking behavioral commitments.
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+---
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+## 4-Step Constructive Feedback Framework (The SBI Model)
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+### Step 1: Situation (Anchor in Exact Time & Place)
+1. **Specific Temporal Anchoring**:
+   - Establish the precise context so the recipient's memory is grounded:
+     - *Bad*: "You're often aggressive in team meetings."
+     - *Good (SBI Situation)*: "Yesterday during the 2:00 PM architecture review for the billing migration..."
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+### Step 2: Behavior (Observable, Video-Camera Facts)
+1. **The "Video-Camera" Test**:
+   - Describe only what a video camera could record. Eliminate adjectives, personality traits, and mind-reading assumptions:
+     - *Bad*: "You were rude and dismissive to the junior engineer."
+     - *Good (SBI Behavior)*: "When Sarah was presenting her database schema proposal, you interrupted her three times and said 'this approach is completely stupid' before she finished explaining."
 
-## Deliverable & Output Format
+### Step 3: Impact (The Measurable Outcome on Team & Business)
+1. **Explaining the Repercussions**:
+   - Articulate the emotional, team, or operational consequences:
+     - *SBI Impact*: "Sarah stopped sharing her ideas for the rest of the meeting, the junior team members became visibly hesitant to ask technical questions, and we missed exploring an edge case that delayed our sprint sign-off."
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+### Step 4: Alternative Behavior & Collaborative Commitment (SBI-A)
+1. **Forward-Looking Alignment**:
+   - Agree on concrete future behavior rather than litigating the past:
+     - *"In future architecture reviews, I need you to let the presenter finish their slide deck before critiquing, and phrase disagreements around technical trade-offs rather than labels. How does that sound to you?"*
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+---
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
+## Deliverable Format: Performance Feedback Record (`FEEDBACK-MEMO.md`)
 
-## Instructions & Operating Rules
+```markdown
+# Constructive Feedback Memo: [Recipient Name]
+*Date: [YYYY-MM-DD] | Manager / Reviewer: [Name, Title]*
 
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
+## 1. Feedback Type & Context
+- **Type**: [Developmental / Performance Coaching / Peer 360 Review]
+- **Setting**: 1-on-1 private sync
 
-## Verification & Quality Checklist
+## 2. SBI Feedback Framework
+- **Situation**:
+  During yesterday's sprint planning session at 10:00 AM...
+- **Behavior (Observable Facts)**:
+  You committed to delivering the authentication refactor by Wednesday, but did not update the Jira ticket or notify the team until Friday afternoon when CI builds failed.
+- **Impact (Business & Team Consequence)**:
+  Frontend engineers were blocked from integrating the new login flow for two days, and we had to reschedule the client demo from Thursday to next week.
 
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
+## 3. Required Future Behavior (The Commitment)
+- Update ticket status within 2 hours if an unexpected blocker delays a committed deadline.
+- Post an async update in `#eng-blockers` as soon as an issue is identified so teammates can swarm.
 
-## Anti-Patterns & Constraints
+## 4. Recipient Response & Agreed Next Action
+- [Notes on recipient's perspective and confirmed commitment].
+- Check-in review date scheduled for: [Date, 2 weeks out].
+```
 
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+---
 
+## Worked Example: Senior Engineer Code Review Feedback
+
+- **Situation**: During pull request reviews on Tuesday.
+- **Behavior**: Left 18 one-line comments saying "rewrite this" without explanations or suggestions.
+- **Impact**: Junior developer felt demoralized and spent 6 hours guessing what was wrong rather than learning the team standard.
+- **Resolution**: Aligned on using conventional review prefixes (`nit:`, `blocking:`) with concrete code examples. Review turnaround improved 40%.
+
+---
+
+## Verification Checklist
+
+- [ ] Situation specifies exact time, meeting, or event.
+- [ ] Behavior describes observable actions that pass the "video-camera test".
+- [ ] Impact clearly explains business, team, or project consequences.
+- [ ] Zero subjective character assassinations ("unprofessional", "lazy", "arrogant").
+- [ ] Concludes with a concrete forward-looking behavioral agreement.
+
+---
+
+## Anti-Patterns
+
+- **The Feedback Sandwich**: Hiding critical performance issues between fake compliments, leaving the recipient thinking everything is great.
+- **Mind Reading**: Claiming to know someone's intent ("You obviously don't care about this company").
+- **Public Shaming**: Delivering developmental criticism in a public Slack channel or team meeting instead of 1-on-1.

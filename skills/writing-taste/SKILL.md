@@ -1,64 +1,103 @@
 ---
 name: writing-taste
 group: Voice and quality
-description: >-
-  Kill tells that make text read as generated: uniform rhythm, filler transitions, hedging, and
-  recaps. Use when eliminating AI writing tells or robotic tone.
+description: Kill tells that make text read as generated: uniform rhythm, filler transitions and recaps. For visual design, see design-taste. Use when eliminating AI writing tells or robotic tone.
 ---
-# Writing Taste
 
-Find and kill the tells that make text read as generated: uniform rhythm, filler transitions, hedging throat-clears, the closing recap nobody asked for..
+# writing-taste
 
-## Process
+## Core Philosophy
+Most AI-generated writing reads like synthetic corporate sludge. Large language models naturally drift toward predictable statistical medians: symmetrical sentence structures, timid hedging, false enthusiasm, and exhausted clichés. Writing taste is the deliberate craft of human editorial discernment. It is the ruthless elimination of generative "AI tells", the injection of visceral sensory and technical nouns, the celebration of strong opinionated stances, and the restoration of rhythmic variance to the prose.
 
-1. **Intake & Scope Definition**
-   - Identify specific objectives, inputs, constraints, and operational context.
-   - Inspect existing project documentation, configurations, or relevant repository assets.
+---
 
-2. **Analysis & Strategic Formulation**
-   - Evaluate options against best practices, security posture, and domain requirements.
-   - Deconstruct complex components into discrete, actionable phases.
+## 4-Step Anti-AI Stylistic Sanitization Protocol
 
-3. **Execution & Synthesis**
-   - Produce structured, production-grade deliverables matching the required format.
-   - Ground all recommendations in concrete project evidence rather than abstract generalities.
+### Step 1: The Banned AI Cliché & Slop Registry
+1. **The Instant-Kill Verb & Noun List**:
+   - *Banned Verbs*: Delve, Unlock, Unleash, Elevate, Harness, Supercharge, Foster, Demystify, Seamlessly integrate.
+   - *Banned Nouns*: Tapestry, Beacon, Testament, Game-changer, Paradigm, Synergy, Landscape, Journey.
+   - *Banned Adjectives*: Crucial, Pivotal, Vibrant, Robust, Paramount, Holistic, Unprecedented.
+   - *Banned Structural Phrases*: *"In today's fast-paced digital landscape"*, *"It's important to remember"*, *"At the end of the day"*, *"Let's dive in"*.
+2. **Action**: If any of these words appear in a draft, highlight and replace them immediately with concrete, unpretentious equivalents.
 
-4. **Review & Refinement**
-   - Validate against the verification checklist and domain edge cases.
-   - Highlight open questions, explicit trade-offs, and next milestones.
+### Step 2: Breaking Symmetrical Monotony (The Rule of Variance)
+1. **The Symmetrical Triplet Tell**:
+   - LLMs are obsessed with groups of three: *"Our tool is fast, reliable, and scalable."* or *"We must innovate, adapt, and succeed."*
+   - Break triplets: Use two contrasting elements, or collapse to a single authoritative noun:
+     - *Slop*: "Building microservices requires patience, discipline, and expertise."
+     - *Edited*: "Building microservices requires discipline."
+2. **Radical Sentence Length Variance**:
+   - Mix 3-word sentences with complex 25-word multi-clause sentences. Contrast breeds attention.
 
-## Deliverable & Output Format
+### Step 3: Killing Hedges & Corporate Timidity
+1. **The Evasion Audit**:
+   - AI models hate committing to a falsifiable stance. They hedge with qualifiers: *"It could be argued that...", "Many believe...", "To some extent..."*
+   - Strip the hedge: Make the direct, opinionated assertion. If trade-offs exist, state the specific boundary condition with exact numbers:
+     - *Hedged*: "Serverless can sometimes be relatively expensive under certain conditions."
+     - *Direct*: "Serverless compute costs double when API traffic exceeds 2,000 requests per second."
 
-### 📋 Executive Summary
-- **Objective:** Key goal addressed
-- **Status:** Complete / Action Required
-- **Primary Recommendation:** Core actionable conclusion
+### Step 4: Concrete Grounding & Visceral Specificity
+1. **Replace Abstract Adjectives with Specific Nouns**:
+   - Never say something is "extremely efficient"; say it "runs in 4ms with 18MB RAM".
+   - Never say an outage was "devastating"; say "the database dropped 14,000 customer sessions during market open".
+   - Specificity is the antidote to generative blandness.
 
-### 🛠️ Detailed Implementation / Analysis
-- Concrete technical, operational, or strategic specifications.
-- Clear code, configuration, or documentation blocks where applicable.
+---
 
-### 📌 Decisions & Next Steps
-- [ ] Immediate action items with designated owners.
-- [ ] Required dependencies or prerequisite milestones.
+## Deliverable Format: Editorial Polish & De-Slop Markup (`DE-SLOP-AUDIT.md`)
 
-## Instructions & Operating Rules
+```markdown
+# Writing Taste & Anti-AI Slop Audit: [Draft Title]
 
-- Lead directly with actionable findings and structured results.
-- Never introduce speculative abstractions or unrequested complexity.
-- Maintain consistency with existing architecture and naming conventions.
-- Provide explicit rationales for non-obvious trade-offs.
+## 1. Slop Density & Taste Metrics
+- **Banned AI Tropes Identified**: 14 instances
+- **Symmetrical Triplets Broken**: 6 instances
+- **Hedges Eliminated**: 9 instances
 
-## Verification & Quality Checklist
+## 2. Before-and-After De-Slopping Transformations
 
-- [ ] Deliverable directly satisfies all stated user requirements and criteria.
-- [ ] Edge cases, boundary conditions, and error states are addressed.
-- [ ] Output contains zero placeholder tokens, broken references, or unverified claims.
-- [ ] All cross-references and formatting comply with repository conventions.
+### Example 1: Opening Hook
+- **AI Slop Original**:
+  > *"In today's rapidly evolving tech landscape, it is crucial for engineering teams to harness the power of distributed tracing to unlock unprecedented observability into their systems."*
+- **Tasteful Human Edit**:
+  > *"If your distributed traces take longer to query than the outage itself, your observability stack is broken."*
+- **Why It Works**: Kills 5 AI clichés (*landscape, crucial, harness, power, unlock, unprecedented*); grounds the hook in real developer frustration.
 
-## Anti-Patterns & Constraints
+### Example 2: The Triplet Collapse
+- **AI Slop Original**:
+  > *"Our new billing engine is designed to be seamless, resilient, and cost-effective for modern teams."*
+- **Tasteful Human Edit**:
+  > *"The billing engine processes 10,000 invoices per second without dropping transactions."*
+- **Why It Works**: Replaces three empty marketing adjectives with a verifiable technical benchmark.
 
-- **NEVER** output generic boilerplate without grounding in specific project inputs.
-- **NEVER** silently omit unresolved contradictions or unverified assumptions.
-- **NEVER** make unrequested modifications outside the stated deliverable boundary.
+## 3. Stylistic Guidelines for This Piece
+- Lead with what broke, not corporate optimism.
+- Keep sentences punchy. If a sentence has 3 commas, split it into two.
+```
 
+---
+
+## Worked Example: Overhauling an AI-Generated Product Announcement
+
+- **Original Draft**: Generated by an LLM; began with "We are thrilled to announce a game-changing milestone in our journey..."
+- **Tasteful Rewrite**: "We just shipped zero-downtime Postgres migrations. Here is the PR and how to run it locally in Docker."
+- **Impact**: Social engagement increased 8x; developers commented praising the direct, hype-free announcement.
+
+---
+
+## Verification Checklist
+
+- [ ] Zero words from the Banned AI Cliché Registry appear in the text.
+- [ ] Symmetrical three-item lists are eliminated or restructured.
+- [ ] Hedging phrases ("perhaps", "arguably", "somewhat") are removed in favor of direct assertions.
+- [ ] Abstract marketing adjectives are replaced with concrete numbers, data, or physical nouns.
+- [ ] Sentence length varies dynamically across the entire piece.
+
+---
+
+## Anti-Patterns
+
+- **The Polite Corporate Throat-Clear**: Spending the first 3 paragraphs summarizing what everyone already agrees on.
+- **The Adjective Avalanche**: Piling on descriptive superlatives ("revolutionary", "pivotal", "transformative") to mask a lack of substance.
+- **Equal-Weight False Balance**: Refusing to take a stand on an obvious technical choice by giving equal time to an inferior approach.
