@@ -1,7 +1,9 @@
 ---
 name: talk-writing
+group: Long form
 description: >-
-  Write a conference talk or keynote: through-line, one idea per slide, opening hook and honest timing.
+  Write a conference talk or keynote: through-line, one idea per slide, opening hook and honest
+  timing. Use when scripting keynote talks, conference presentations, or lightning talks.
 ---
 # Talk Writing
 

@@ -1,7 +1,9 @@
 ---
 name: executive-summary
+group: Documents
 description: >-
-  Compress complex input into one page: recommendation first, then the supporting case.
+  Compress complex input into one page: recommendation first, then the supporting case. Use when
+  condensing complex reports, briefings, or proposals for leaders.
 ---
 # Executive Summary
 

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with translation"
-  - "translate while preserving register, idiom and domain terms, flagging what doesn't carry across."
-  - "run translation workflow"
+  - 'translate this technical product documentation from English to Japanese with domain nuance'
+  - 'localize our marketing website copy into Spanish, adapting cultural idioms naturally'
+  - 'translate this legal software contract from German into English with legal precision'
+  - 'ensure technical terminology and code identifiers remain untranslated in documentation'
+  - 'translate customer support responses into French while maintaining a friendly, polite tone'
+  - 'adapt English humor, metaphors, and cultural references for an Italian audience'
+  - 'review a machine-translated software interface for awkward grammatical artifacts'
+  - 'provide culturally sensitive localization for our mobile app''s onboarding flow'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'translate computer code from Python into Go'
+    expect: 'port-code'
+  - prompt: 'line-edit English text to improve rhythm and flow'
+    expect: 'line-editing'
+  - prompt: 'repurpose social media threads into long-form essays'
+    expect: 'thread-to-article'

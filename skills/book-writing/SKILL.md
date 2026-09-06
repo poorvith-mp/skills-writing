@@ -1,7 +1,9 @@
 ---
 name: book-writing
+group: Long form
 description: >-
-  Develop book-length work: premise, chapter architecture, narrative voice and full-draft revision, including from scattered fragments.
+  Develop book-length work: premise, chapter architecture, narrative voice, and full revision. Use
+  when structuring non-fiction books or manuscripts.
 ---
 # Book Writing
 

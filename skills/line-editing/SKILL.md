@@ -1,7 +1,9 @@
 ---
 name: line-editing
+group: Voice and quality
 description: >-
   Tighten a draft: cut filler, vary rhythm, sharpen verbs, and make every sentence earn its place.
+  Use when polishing prose line by line for rhythm, concision, and clarity.
 ---
 # Line Editing
 

@@ -1,7 +1,9 @@
 ---
 name: translation
+group: Repurposing and translation
 description: >-
   Translate while preserving register, idiom and domain terms, flagging what doesn't carry across.
+  Use when translating text across languages preserving nuance, tone, and idioms.
 ---
 # Translation
 

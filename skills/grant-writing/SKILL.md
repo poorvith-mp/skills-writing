@@ -1,7 +1,9 @@
 ---
 name: grant-writing
+group: Documents
 description: >-
-  Write grant applications for nonprofits, research institutions and social enterprises, including prospect research.
+  Write grant applications for nonprofits, research institutions and social enterprises, including
+  prospect research. Use when authoring grant applications, proposal narratives, or budgets.
 ---
 # Grant Writing
 

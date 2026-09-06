@@ -1,7 +1,16 @@
 should_fire:
-  - "help with screenwriting"
-  - "write screenplays in industry format with scene headings, action lines, dialogue and parentheticals."
-  - "run screenwriting workflow"
+  - 'write a dramatic scene script formatted with proper sluglines and action blocks'
+  - 'develop a three-act structure and beat sheet for a sci-fi thriller screenplay'
+  - 'punch up the subtext and conflict in this two-character dialogue scene'
+  - 'pace the midpoint twist and climax of a feature film script'
+  - 'ensure character dialogue reflects distinct voices and avoids on-the-nose exposition'
+  - 'format action descriptions concisely using active visual verbs in present tense'
+  - 'write a logline and one-page treatment for a television pilot pitch'
+  - 'troubleshoot second-act sag in my 90-page feature film screenplay'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write branching dialogue trees for video game NPCs'
+    expect: 'narrative-design'
+  - prompt: 'write chapter manuscripts for a non-fiction book'
+    expect: 'book-writing'
+  - prompt: 'script a 20-minute keynote conference presentation'
+    expect: 'talk-writing'

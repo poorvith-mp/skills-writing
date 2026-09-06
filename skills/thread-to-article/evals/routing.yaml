@@ -1,7 +1,16 @@
 should_fire:
-  - "help with thread to article"
-  - "expand an x or linkedin thread into a structured article with added context, headings and links."
-  - "run thread-to-article workflow"
+  - 'expand this viral 10-tweet thread into a rich, comprehensive 1,500-word blog post'
+  - 'repurpose a 3,000-word technical essay into a punchy 8-tweet summary thread'
+  - 'turn podcast show notes and interview takeaways into a polished article'
+  - 'flesh out bullet points from a social post with deeper technical examples and research'
+  - 'convert a presentation slide deck transcript into an authoritative written guide'
+  - 'repurpose a video tutorial script into an SEO-friendly blog tutorial'
+  - 'adapt an academic paper summary into an engaging LinkedIn newsletter piece'
+  - 'maintain the core narrative hook when expanding bite-sized ideas into long-form essays'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write native organic social media posts and tweets from scratch'
+    expect: 'social-content'
+  - prompt: 'write an original in-depth technical article from scratch'
+    expect: 'article-writing'
+  - prompt: 'translate text between different human languages'
+    expect: 'translation'

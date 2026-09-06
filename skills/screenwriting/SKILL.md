@@ -1,7 +1,9 @@
 ---
 name: screenwriting
+group: Long form
 description: >-
-  Write screenplays in industry format with scene headings, action lines, dialogue and parentheticals.
+  Write screenplays in industry format with scene headings, action lines, dialogue and
+  parentheticals. Use when writing screenplays, teleplays, scene slugs, or script dialogue.
 ---
 # Screenwriting
 

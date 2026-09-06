@@ -1,7 +1,16 @@
 should_fire:
-  - "help with sop writing"
-  - "write procedures anyone can follow"
-  - "run sop-writing workflow"
+  - 'write a clear Standard Operating Procedure (SOP) for our weekly database backup verification'
+  - 'create an unambiguous operational runbook for onboarding a new remote employee'
+  - 'document an emergency customer data export procedure with security checks'
+  - 'structure an SOP with purpose, scope, prerequisites, step-by-step actions, and verification'
+  - 'turn a messy, unwritten manual task into a foolproof checklist anyone can follow'
+  - 'create an incident escalation SOP defining who to contact and when'
+  - 'standardize our team''s operational procedures into a consistent documentation format'
+  - 'audit an existing operational runbook to eliminate ambiguities and outdated steps'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write developer-facing software API documentation'
+    expect: 'technical-docs'
+  - prompt: 'run day-to-day business operations and routine workflows'
+    expect: 'operations'
+  - prompt: 'redesign an entire business process to remove inefficiencies'
+    expect: 'process-redesign'

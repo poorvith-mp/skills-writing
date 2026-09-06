@@ -1,7 +1,16 @@
 should_fire:
-  - "help with book writing"
-  - "develop book-length work"
-  - "run book-writing workflow"
+  - 'develop the chapter architecture and narrative arc for a 250-page non-fiction book'
+  - 'help me turn these scattered blog posts and notes into a cohesive book manuscript'
+  - 'refine the core premise, hook, and thesis of my upcoming business book'
+  - 'write an engaging book proposal including sample chapters and target market analysis'
+  - 'pace thematic arguments across a 10-chapter non-fiction outline'
+  - 'structure case studies and personal anecdotes to support core conceptual chapters'
+  - 'how to maintain consistent authorial voice and momentum across an 80,000-word draft'
+  - 'review this completed draft chapter for thematic continuity and narrative pull'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write a screenplay for film or television with scene slugs'
+    expect: 'screenwriting'
+  - prompt: 'outline and structure a 5-page academic argumentative essay'
+    expect: 'essay-structure'
+  - prompt: 'line-edit specific paragraphs to improve sentence rhythm'
+    expect: 'line-editing'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with executive summary"
-  - "compress complex input into one page"
-  - "run executive-summary workflow"
+  - 'condense this 40-page technical feasibility report into a 1-page executive summary'
+  - 'summarize key findings, risks, and recommended decisions for the executive leadership team'
+  - 'draft an executive briefing memo highlighting the financial implications of this vendor choice'
+  - 'extract the core takeaways and critical action items from a complex project audit'
+  - 'write a high-impact executive summary for an institutional grant proposal'
+  - 'structure an executive memo: Problem, Recommendation, Expected Impact, Next Steps'
+  - 'translate dense engineering metrics into clear business outcomes for C-suite leaders'
+  - 'create an executive snapshot summarizing quarterly progress across three business units'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'prepare quarterly board meeting decks and CEO letters'
+    expect: 'board-reporting'
+  - prompt: 'compile monthly operational KPI dashboards for team leads'
+    expect: 'internal-reporting'
+  - prompt: 'summarize academic scientific papers for researchers'
+    expect: 'paper-summary'

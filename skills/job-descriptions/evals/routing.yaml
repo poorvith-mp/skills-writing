@@ -1,7 +1,16 @@
 should_fire:
-  - "help with job descriptions"
-  - "write role-accurate jds with responsibilities, required versus preferred qualifications and pay bands."
-  - "run job-descriptions workflow"
+  - 'write an engaging, inclusive job description for a Senior Frontend Engineer'
+  - 'define clear core responsibilities, technical requirements, and nice-to-haves for a role'
+  - 'eliminate gendered language and exclusionary requirements from our job postings'
+  - 'write an attractive pitch explaining why an exceptional engineer should join our startup'
+  - 'craft a role description for a founding product designer that accurately reflects early ambiguity'
+  - 'distinguish between must-have competencies vs trainable skills in a job specification'
+  - 'benchmark salary ranges, equity, and benefits transparently in our job listing'
+  - 'revise our engineering job descriptions to attract more diverse, high-caliber candidates'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design structured interview rubrics and scoring sheets'
+    expect: 'hiring'
+  - prompt: 'resolve legal employment classification (W2 vs 1099)'
+    expect: 'employment-law'
+  - prompt: 'tailor a personal resume for a job application'
+    expect: 'resume'

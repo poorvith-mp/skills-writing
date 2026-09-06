@@ -1,7 +1,16 @@
 should_fire:
-  - "help with technical docs"
-  - "write api references, user guides, setup manuals and architecture docs with consistent terminology."
-  - "run technical-docs workflow"
+  - 'write clear, step-by-step installation and quickstart documentation for our SDK'
+  - 'document this REST API endpoint with parameter tables, auth headers, and curl examples'
+  - 'create a troubleshooting guide addressing the top 5 common developer errors'
+  - 'structure our developer documentation portal: getting started, guides, and reference'
+  - 'write a conceptual explainer teaching developers how our caching layer works'
+  - 'author comprehensive configuration docs detailing all environment variables and flags'
+  - 'audit our existing API docs for out-of-date parameters and broken code snippets'
+  - 'write an end-to-end integration tutorial showing how to connect our service with Next.js'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write the main open-source repo README and CONTRIBUTING guide'
+    expect: 'repo-docs'
+  - prompt: 'write internal standard operating procedures for team processes'
+    expect: 'sop-writing'
+  - prompt: 'design OpenAPI specification schemas in YAML'
+    expect: 'api-design'

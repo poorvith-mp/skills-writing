@@ -1,7 +1,16 @@
 should_fire:
-  - "help with historical accuracy"
-  - "check period detail, material culture and historiography for anachronism."
-  - "run historical-accuracy workflow"
+  - 'audit this novel draft for historical anachronisms set in 14th-century Venice'
+  - 'verify whether this military technology was historically available during the American Civil War'
+  - 'check historical dates, lineage, and political titles in this historical fiction manuscript'
+  - 'ensure clothing materials, food, and everyday vocabulary match 1920s London accurately'
+  - 'verify the chronological sequence of political events during the Weimar Republic'
+  - 'audit a screenplay for dialect, slang, and cultural attitudes accurate to Victorian England'
+  - 'fact-check claims made about ancient Roman trade routes and economic currency'
+  - 'identify historical inaccuracies in this narrative recounting the Space Race'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'audit modern machine learning models for bias and data integrity'
+    expect: 'model-audit'
+  - prompt: 'evaluate the credibility and methodology of contemporary research sources'
+    expect: 'source-evaluation'
+  - prompt: 'investigate complex technical facts across verified primary sources'
+    expect: 'research'

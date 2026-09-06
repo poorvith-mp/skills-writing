@@ -1,7 +1,9 @@
 ---
 name: meeting-notes
+group: Documents
 description: >-
-  Turn notes or a transcript into decisions, action items with owners and deadlines, and a parking lot.
+  Turn notes or a transcript into decisions, action items with owners and deadlines, and a parking
+  lot. Use when summarizing meetings, tracking decisions, or extracting action items.
 ---
 # Meeting Notes
 

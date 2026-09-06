@@ -1,7 +1,9 @@
 ---
 name: historical-accuracy
+group: Research support
 description: >-
-  Check period detail, material culture and historiography for anachronism.
+  Check period detail, material culture and historiography for anachronism. Use when verifying
+  historical facts, anachronisms, dates, or context.
 ---
 # Historical Accuracy
 

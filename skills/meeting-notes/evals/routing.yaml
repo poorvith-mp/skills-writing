@@ -1,7 +1,16 @@
 should_fire:
-  - "help with meeting notes"
-  - "turn notes or a transcript into decisions, action items with owners and deadlines, and a parking lot."
-  - "run meeting-notes workflow"
+  - 'summarize this 45-minute meeting transcript into decisions made and action items'
+  - 'extract clear task assignments with owners and deadlines from meeting notes'
+  - 'organize a messy transcript into key discussion themes and next steps'
+  - 'draft a concise follow-up email summarizing meeting outcomes for all attendees'
+  - 'distill a heated debate into the underlying trade-offs and unresolved questions'
+  - 'create a standardized meeting minutes template for executive team syncs'
+  - 'filter out casual conversational banter and capture only substantive business agreements'
+  - 'track progress on commitments made during previous weekly sync meetings'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'manage executive calendar priorities and chief of staff agendas'
+    expect: 'chief-of-staff'
+  - prompt: 'transcribe raw audio recordings into text using Whisper'
+    expect: 'speech-pipelines'
+  - prompt: 'write a formal executive briefing memo for leadership'
+    expect: 'executive-summary'

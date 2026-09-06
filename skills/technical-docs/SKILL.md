@@ -1,7 +1,9 @@
 ---
 name: technical-docs
+group: Documents
 description: >-
-  Write API references, user guides, setup manuals and architecture docs with consistent terminology.
+  Write API references, user guides, setup manuals and architecture docs with consistent
+  terminology. Use when writing developer documentation, API guides, or tutorials.
 ---
 # Technical Docs
 

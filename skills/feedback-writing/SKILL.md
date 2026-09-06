@@ -1,7 +1,9 @@
 ---
 name: feedback-writing
+group: Workplace
 description: >-
-  Write constructive feedback using Situation-Behavior-Impact for performance, peer and 360 reviews.
+  Write constructive feedback using Situation-Behavior-Impact for performance, peer and 360
+  reviews. Use when drafting constructive performance reviews, peer praise, or coaching.
 ---
 # Feedback Writing
 

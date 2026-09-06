@@ -1,7 +1,9 @@
 ---
 name: thread-to-article
+group: Repurposing and translation
 description: >-
   Expand an X or LinkedIn thread into a structured article with added context, headings and links.
+  Use when expanding social threads into long-form articles, or vice versa.
 ---
 # Thread To Article
 

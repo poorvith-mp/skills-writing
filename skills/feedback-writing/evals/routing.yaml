@@ -1,7 +1,16 @@
 should_fire:
-  - "help with feedback writing"
-  - "write constructive feedback using situation-behavior-impact for performance, peer and 360 reviews."
-  - "run feedback-writing workflow"
+  - 'write constructive, actionable performance review feedback for an underperforming engineer'
+  - 'draft meaningful peer praise celebrating a colleague''s collaborative contributions'
+  - 'deliver difficult feedback on communication style using the Situation-Behavior-Impact model'
+  - 'write a balanced self-evaluation for my annual performance review cycle'
+  - 'frame constructive criticism in a way that motivates improvement rather than defensiveness'
+  - 'help a manager write a formal Performance Improvement Plan (PIP) with clear milestones'
+  - 'coach an engineer on how to communicate with more empathy during code reviews'
+  - 'write end-of-year 360-degree review feedback for our engineering director'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'navigate co-founder disputes and leadership team dynamics'
+    expect: 'team-dynamics'
+  - prompt: 'structure 1-on-1 career growth and mentorship check-ins'
+    expect: 'mentoring'
+  - prompt: 'design hiring scorecards and structured candidate evaluation'
+    expect: 'hiring'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with talk writing"
-  - "write a conference talk or keynote"
-  - "run talk-writing workflow"
+  - 'script a compelling 20-minute technical keynote presentation for a major tech conference'
+  - 'write a memorable opening hook and personal story to capture the audience''s attention'
+  - 'structure a slide-by-slide narrative arc for an inspiring developer conference talk'
+  - 'craft memorable soundbites and takeaway phrases that attendees will tweet about'
+  - 'write speaker delivery notes: pauses, emphasis, stage movement, and pacing cues'
+  - 'condense a complex technical architecture lesson into a snappy 5-minute lightning talk'
+  - 'design audience engagement moments and rhetorical questions into a talk script'
+  - 'help me conclude my presentation with a clear, inspiring call to action'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'design visual presentation slides and diagrams'
+    expect: 'visual-assets'
+  - prompt: 'write video ad scripts for paid marketing campaigns'
+    expect: 'ad-creative'
+  - prompt: 'write a screenplay for a short dramatic film'
+    expect: 'screenwriting'

@@ -1,7 +1,16 @@
 should_fire:
-  - "help with writing taste"
-  - "find and kill the tells that make text read as generated"
-  - "run writing-taste workflow"
+  - 'strip the obvious AI writing tells and robotic fluff out of this draft article'
+  - 'eliminate repetitive transitional cliches like ''in conclusion'' and ''furthermore'''
+  - 'remove corporate buzzwords, throat-clearing openings, and passive hedging'
+  - 'make this draft read like a thoughtful human with conviction rather than a language model'
+  - 'kill the generic concluding summary paragraph that adds zero new value'
+  - 'vary sentence lengths and rhythms so this essay doesn''t have a monotonous cadence'
+  - 'rewrite this bland text to give it texture, specificity, and sharp opinions'
+  - 'audit this piece of writing for dead metaphors and empty corporate speak'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'tighten wordy sentences and cut superfluous words line by line'
+    expect: 'line-editing'
+  - prompt: 'extract and define my personal voice rules and sentence patterns'
+    expect: 'voice-profile'
+  - prompt: 'audit visual UI designs for AI tropes and purple gradients'
+    expect: 'design-taste'

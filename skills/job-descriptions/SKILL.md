@@ -1,7 +1,9 @@
 ---
 name: job-descriptions
+group: Workplace
 description: >-
-  Write role-accurate JDs with responsibilities, required versus preferred qualifications and pay bands.
+  Write role-accurate JDs with responsibilities, required versus preferred qualifications and pay
+  bands. Use when drafting attractive, inclusive, and role-accurate job postings.
 ---
 # Job Descriptions
 

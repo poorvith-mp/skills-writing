@@ -1,7 +1,9 @@
 ---
 name: sop-writing
+group: Documents
 description: >-
-  Write procedures anyone can follow: numbered steps, owners, inputs, outputs, escalation and executable templates.
+  Write procedures anyone can follow: numbered steps, owners, inputs, outputs, escalation and
+  executable templates. Use when authoring Standard Operating Procedures, runbooks, or checklists.
 ---
 # SOP Writing
 

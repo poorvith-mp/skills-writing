@@ -1,7 +1,9 @@
 ---
 name: writing-taste
+group: Voice and quality
 description: >-
-  Find and kill the tells that make text read as generated: uniform rhythm, filler transitions, hedging throat-clears, the closing recap nobody asked for.
+  Kill tells that make text read as generated: uniform rhythm, filler transitions, hedging, and
+  recaps. Use when eliminating AI writing tells or robotic tone.
 ---
 # Writing Taste
 

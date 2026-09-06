@@ -1,7 +1,16 @@
 should_fire:
-  - "help with line editing"
-  - "tighten a draft"
-  - "run line-editing workflow"
+  - 'line-edit this 2,000-word essay to cut word count by 25% without losing meaning'
+  - 'tighten these clumsy sentences and eliminate unnecessary prepositional phrases'
+  - 'improve the flow, cadence, and readability of these body paragraphs'
+  - 'fix awkward phrasing, passive voice constructions, and redundant modifiers'
+  - 'smooth out transitions between these two dense technical sections'
+  - 'polish this draft line by line to maximize clarity and punchiness'
+  - 'eliminate filter words (''I noticed that'', ''it seems that'') from this narrative'
+  - 'ensure verb choices are active, descriptive, and strong throughout this chapter'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'sweep an article specifically to kill AI buzzwords and robotic tells'
+    expect: 'writing-taste'
+  - prompt: 'structure the high-level chapter architecture and outline for a book'
+    expect: 'book-writing'
+  - prompt: 'write conversion copy for a marketing landing page'
+    expect: 'landing-copy'

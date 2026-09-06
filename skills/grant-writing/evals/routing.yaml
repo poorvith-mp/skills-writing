@@ -1,7 +1,16 @@
 should_fire:
-  - "help with grant writing"
-  - "write grant applications for nonprofits, research institutions and social enterprises, including prospect research."
-  - "run grant-writing workflow"
+  - 'write a compelling project narrative for a government technology innovation grant'
+  - 'structure the statement of need, project goals, and measurable outcomes for a grant proposal'
+  - 'align our research proposal narrative with the funding agency''s specific evaluation rubric'
+  - 'draft a realistic project budget justification detailing personnel, equipment, and travel'
+  - 'write the community impact and sustainability section of a non-profit grant application'
+  - 'demonstrate team qualifications, institutional capacity, and track record in a proposal'
+  - 'review a draft grant submission to ensure every RFP requirement is explicitly addressed'
+  - 'craft a clear executive summary for a multi-year research funding grant'
 should_not_fire:
-  - prompt: "unrelated query outside this domain"
-    expect: general-inquiry
+  - prompt: 'write an investor pitch deck for venture capital funding'
+    expect: 'investor-deck'
+  - prompt: 'draft formal business plans for commercial bank loans'
+    expect: 'business-plan'
+  - prompt: 'write academic capstone dissertation timelines and deliverables'
+    expect: 'academic-project'
