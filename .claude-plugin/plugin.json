@@ -1,8 +1,8 @@
 {
   "name": "skills-writing",
   "displayName": "Writing Skills",
-  "version": "3.0.0",
-  "description": "5 writing skills. Long-form and professional writing: books, technical docs, screenplays and copy.",
+  "version": "4.0.0",
+  "description": "15 writing skills. Long-form and professional writing: books, technical docs, screenplays and copy.",
   "author": {
     "name": "Poorvith M P",
     "url": "https://github.com/poorvith-mp"
