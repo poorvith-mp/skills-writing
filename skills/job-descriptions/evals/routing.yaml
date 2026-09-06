@@ -1,0 +1,7 @@
+should_fire:
+  - "help with job descriptions"
+  - "write role-accurate jds with responsibilities, required versus preferred qualifications and pay bands."
+  - "run job-descriptions workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with sop writing"
+  - "write procedures anyone can follow"
+  - "run sop-writing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

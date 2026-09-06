@@ -1,0 +1,7 @@
+should_fire:
+  - "help with grant writing"
+  - "write grant applications for nonprofits, research institutions and social enterprises, including prospect research."
+  - "run grant-writing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

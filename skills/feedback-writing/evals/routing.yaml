@@ -1,0 +1,7 @@
+should_fire:
+  - "help with feedback writing"
+  - "write constructive feedback using situation-behavior-impact for performance, peer and 360 reviews."
+  - "run feedback-writing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

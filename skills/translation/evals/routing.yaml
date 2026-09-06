@@ -1,0 +1,7 @@
+should_fire:
+  - "help with translation"
+  - "translate while preserving register, idiom and domain terms, flagging what doesn't carry across."
+  - "run translation workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

@@ -1,0 +1,7 @@
+should_fire:
+  - "help with thread to article"
+  - "expand an x or linkedin thread into a structured article with added context, headings and links."
+  - "run thread-to-article workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

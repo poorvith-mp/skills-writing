@@ -1,0 +1,7 @@
+should_fire:
+  - "help with meeting notes"
+  - "turn notes or a transcript into decisions, action items with owners and deadlines, and a parking lot."
+  - "run meeting-notes workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

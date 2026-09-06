@@ -1,0 +1,7 @@
+should_fire:
+  - "help with historical accuracy"
+  - "check period detail, material culture and historiography for anachronism."
+  - "run historical-accuracy workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

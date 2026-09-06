@@ -1,0 +1,7 @@
+should_fire:
+  - "help with screenwriting"
+  - "write screenplays in industry format with scene headings, action lines, dialogue and parentheticals."
+  - "run screenwriting workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

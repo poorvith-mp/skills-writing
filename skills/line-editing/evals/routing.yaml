@@ -1,0 +1,7 @@
+should_fire:
+  - "help with line editing"
+  - "tighten a draft"
+  - "run line-editing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

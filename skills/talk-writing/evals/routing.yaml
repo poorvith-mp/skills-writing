@@ -1,0 +1,7 @@
+should_fire:
+  - "help with talk writing"
+  - "write a conference talk or keynote"
+  - "run talk-writing workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

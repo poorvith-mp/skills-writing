@@ -1,0 +1,7 @@
+should_fire:
+  - "help with executive summary"
+  - "compress complex input into one page"
+  - "run executive-summary workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry

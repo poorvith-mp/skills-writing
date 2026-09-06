@@ -1,0 +1,7 @@
+should_fire:
+  - "help with technical docs"
+  - "write api references, user guides, setup manuals and architecture docs with consistent terminology."
+  - "run technical-docs workflow"
+should_not_fire:
+  - prompt: "unrelated query outside this domain"
+    expect: general-inquiry
