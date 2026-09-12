@@ -1,5 +1,6 @@
 ---
 name: line-editing
+last_reviewed: 2026-09-06
 group: Voice and quality
 description: >-
   Tighten a draft: cut filler, vary rhythm, sharpen verbs, and make every sentence earn its place.

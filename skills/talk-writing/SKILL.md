@@ -1,5 +1,6 @@
 ---
 name: talk-writing
+last_reviewed: 2026-09-06
 group: Long form
 description: >-
   Write a conference talk or keynote: through-line, one idea per slide, opening hook and honest

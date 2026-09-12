@@ -1,5 +1,6 @@
 ---
 name: translation
+last_reviewed: 2026-09-06
 group: Repurposing and translation
 description: >-
   Translate while preserving register, idiom and domain terms, flagging what doesn't carry across.

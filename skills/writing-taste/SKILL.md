@@ -1,5 +1,6 @@
 ---
 name: writing-taste
+last_reviewed: 2026-09-06
 group: Voice and quality
 description: Kill tells that make text read as generated: uniform rhythm, filler transitions and recaps. For visual design, see design-taste. Use when eliminating AI writing tells or robotic tone.
 ---

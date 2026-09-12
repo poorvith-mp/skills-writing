@@ -1,5 +1,6 @@
 ---
 name: book-writing
+last_reviewed: 2026-09-06
 group: Long form
 description: >-
   Develop book-length work: premise, chapter architecture, narrative voice, and full revision. Use

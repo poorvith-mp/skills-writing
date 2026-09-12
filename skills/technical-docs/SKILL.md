@@ -1,5 +1,6 @@
 ---
 name: technical-docs
+last_reviewed: 2026-09-06
 group: Documents
 description: >-
   Write API references, user guides, setup manuals and architecture docs with consistent

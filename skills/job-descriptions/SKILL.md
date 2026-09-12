@@ -1,5 +1,6 @@
 ---
 name: job-descriptions
+last_reviewed: 2026-09-06
 group: Workplace
 description: >-
   Write role-accurate JDs with responsibilities, required versus preferred qualifications and pay

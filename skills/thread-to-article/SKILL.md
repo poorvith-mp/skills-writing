@@ -1,5 +1,6 @@
 ---
 name: thread-to-article
+last_reviewed: 2026-09-06
 group: Repurposing and translation
 description: >-
   Expand an X or LinkedIn thread into a structured article with added context, headings and links.

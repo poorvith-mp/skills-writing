@@ -1,5 +1,6 @@
 ---
 name: sop-writing
+last_reviewed: 2026-09-06
 group: Documents
 description: >-
   Write procedures anyone can follow: numbered steps, owners, inputs, outputs, escalation and

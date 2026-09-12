@@ -1,5 +1,6 @@
 ---
 name: technical-writer
+last_reviewed: 2026-09-06
 description: Moved to technical-docs in skills-writing. Removed in v4.1.
 deprecated: true
 ---

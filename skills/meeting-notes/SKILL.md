@@ -1,5 +1,6 @@
 ---
 name: meeting-notes
+last_reviewed: 2026-09-06
 group: Documents
 description: >-
   Turn notes or a transcript into decisions, action items with owners and deadlines, and a parking

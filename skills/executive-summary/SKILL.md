@@ -1,5 +1,6 @@
 ---
 name: executive-summary
+last_reviewed: 2026-09-06
 group: Documents
 description: >-
   Compress complex input into one page: recommendation first, then the supporting case. Use when

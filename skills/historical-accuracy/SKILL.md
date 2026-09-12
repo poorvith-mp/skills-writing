@@ -1,5 +1,6 @@
 ---
 name: historical-accuracy
+last_reviewed: 2026-09-06
 group: Research support
 description: >-
   Check period detail, material culture and historiography for anachronism. Use when verifying

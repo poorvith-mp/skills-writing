@@ -1,5 +1,6 @@
 ---
 name: grant-writing
+last_reviewed: 2026-09-06
 group: Documents
 description: >-
   Write grant applications for nonprofits, research institutions and social enterprises, including
